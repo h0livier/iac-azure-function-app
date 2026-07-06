@@ -5,12 +5,12 @@ output "function_app_name" {
 
 output "function_app_default_hostname" {
   description = "The default hostname of the Function App"
-  value       = azurerm_linux_function_app.this.default_hostname
+  value       = azurerm_function_app_flex_consumption.this.default_hostname
 }
 
 output "function_app_id" {
   description = "The ID of the Function App"
-  value       = azurerm_linux_function_app.this.id
+  value       = azurerm_function_app_flex_consumption.this.id
 }
 
 output "storage_account_name" {
