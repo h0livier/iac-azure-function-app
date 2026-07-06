@@ -11,7 +11,7 @@ resource "azurerm_service_plan" "this" {
   resource_group_name = var.resource_group_data.name
   location            = var.resource_group_data.location
   os_type             = "Linux"
-  sku_name            = "F1" # Y1 for Consumption, F1 for Free
+  sku_name            = "FC1" # Y1 for Consumption, F1 for Free
 }
 
 resource "azurerm_linux_function_app" "this" {
