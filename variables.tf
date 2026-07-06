@@ -28,7 +28,7 @@ variable "resource_group_data" {
 variable "dotnet_runtime_version" {
   description = "The .NET runtime version (e.g., '6' for .NET 6)."
   type        = string
-  default     = "8.0"
+  default     = null
 }
 
 variable "node_runtime_version" {
